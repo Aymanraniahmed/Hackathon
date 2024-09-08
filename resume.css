@@ -1,0 +1,83 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #13a0e7;
+
+    align-items: left;
+    width: 30%;
+    max-width: 800px;
+    margin: 15px auto;
+    background-color: rgb(236, 219, 219);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px ;    
+}
+
+.resume-container {
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(249, 217, 217)
+    padding: 20px;
+   
+    border-radius: 50px;
+    padding: 50px;
+    flex: 1;
+}
+
+label { 
+    display: block;
+    margin-bottom: 4px;
+    color: rgb(66, 58, 58);
+}
+
+input[type= "text"], input[type="email"], textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: px0; text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #c4d8e4;
+    color: rgb(80, 67, 67);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #baf4e9;
+}
+
+/* Highlight class to be applied by TypeScript */
+.highlight {
+    background-color: rgb(242, 242, 184);
+}
